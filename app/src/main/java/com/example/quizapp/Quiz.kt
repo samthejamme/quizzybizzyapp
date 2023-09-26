@@ -3,13 +3,13 @@ package com.example.quizapp
 class Quiz(val questions: List<Question>) {
     // vars to track score, quesiton index
     var score = 0
-    var index = 0
-    var alreadyAsked = (mutableListOf <Int>())
+    private var index = 0
+    private var alreadyAsked = (mutableListOf <Int>())
 
     // gets the current question
-    private fun getCurrentQuesiton() : Question {
+    private fun getCurrentQuesiton() : String {
         questionBeGone(index)
-        return questions.get(index)
+        return questions[index].question
     }
 
     // adds the question to the list of questions that were already asked
@@ -22,7 +22,7 @@ class Quiz(val questions: List<Question>) {
         if(!alreadyAsked.contains(index)) {
             return true
         }
-        else if(index < alreadyAsked.lastIndex) {
+        else if(index != questions.lastIndex && index == alreadyAsked[alreadyAsked.lastIndex]) {
             index++
             return true
         }
@@ -30,16 +30,16 @@ class Quiz(val questions: List<Question>) {
     }
 
     // loads the questions if there's more questions to load
-    fun loadQuestion() {
+    fun loadNextQuestion() : String{
         if (moreQuesitons()) {
-            getCurrentQuesiton()
+            return getCurrentQuesiton()
         }
+        return "End of Quiz"
     }
 
-    // checks asnwer
-    fun checkAnswer() {
-        val string = MainActivity.ANSWER
-        if(questions.get(index).answer == string)
+    // checks answer
+    fun checkAnswer(string: String) {
+        if(questions[index].answer == string)
             score++
     }
 

@@ -18,5 +18,45 @@
       "neither"
     ],
     "answer" : "true"
+  },
+  {
+    "question" : "Was Georgia a part of the First Continental Congress?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Did the American government implement New Jersey's plan for their government?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Did John Jay write part of the Federalist Papers?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Was Georgia a part of the First Continental Congress?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Were the Stamp Acts repealed?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
   }
 ]
