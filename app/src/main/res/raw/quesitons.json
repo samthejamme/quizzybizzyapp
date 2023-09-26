@@ -1,0 +1,22 @@
+[
+  {
+    "question" : "Is Comic Sans better than Comic Serif?",
+    "choices": [
+      "true",
+      "false",
+      "both",
+      "neither"
+    ],
+    "answer": "true"
+  },
+  {
+    "question" : "Are snickerdoodles better than sugar cookies?",
+    "choices": [
+      "true",
+      "false",
+      "both",
+      "neither"
+    ],
+    "answer" : "true"
+  }
+]
