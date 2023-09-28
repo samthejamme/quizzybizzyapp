@@ -65,9 +65,9 @@ class MainActivity : AppCompatActivity() {
     private fun loadQuestions() {
         // get JSON questions from "raw" folder
         var inputStream = resources.openRawResource(R.raw.quesitons)
-        if(resources.getString(R.string.score) == "Puntos") {
-            inputStream = resources.openRawResource(R.raw.preguntas)
-        }
+//        if(resources.getString(R.string.score) == "Puntos") {
+//            inputStream = resources.openRawResource(R.raw.preguntas)
+//        }
         val jsonString = inputStream.bufferedReader().use {
             it.readText()
         }
