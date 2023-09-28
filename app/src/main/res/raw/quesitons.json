@@ -44,12 +44,12 @@
     "answer" : "true"
   },
   {
-    "question" : "Was Georgia a part of the First Continental Congress?",
+    "question" : "Is \"the right to remain silent\" part of the Bill of Rights?",
     "choices" : [
       "true",
       "false"
     ],
-    "answer" : "false"
+    "answer" : "true"
   },
   {
     "question" : "Were the Stamp Acts repealed?",
@@ -58,5 +58,29 @@
       "false"
     ],
     "answer" : "true"
+  },
+  {
+    "question" : "Are meerkats the most homocidal mammal?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Are the ardvark and the ardwolf part of the same taxonomical family?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Is the white perch in the same taxonomy as the black perch?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
   }
 ]

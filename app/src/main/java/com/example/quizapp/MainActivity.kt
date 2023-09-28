@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.TextView
-import com.google.android.material.color.utilities.Score
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 
@@ -16,11 +15,11 @@ class MainActivity : AppCompatActivity() {
         val TAG = "MainActivity"
     }
 
-    lateinit var quiz: Quiz
-    lateinit var trueButton : Button
-    lateinit var falseButton: Button
-    lateinit var questionReader: TextView
-    lateinit var scoreReader: TextView
+    private lateinit var quiz: Quiz
+    private lateinit var trueButton : Button
+    private lateinit var falseButton: Button
+    private lateinit var questionReader: TextView
+    private lateinit var scoreReader: TextView
 
     @SuppressLint("MissingInflatedId")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -30,18 +29,16 @@ class MainActivity : AppCompatActivity() {
         falseButton = findViewById(R.id.button2_main_false)
         questionReader = findViewById(R.id.text_main_questions)
         scoreReader = findViewById(R.id.textView2_main_score)
-        scoreReader.visibility = View.INVISIBLE
 
         // initial question set-up
         loadQuestions()
         questionReader.text = quiz.loadNextQuestion()
 
-        // TODO: set up listener methods
-        // send to companion object ANSWER
         trueButton.setOnClickListener {
             quiz.checkAnswer("true")
             // go to next question
             questionReader.text = quiz.loadNextQuestion()
+            // is it the end?
             ifEnd()
         }
 
@@ -49,24 +46,28 @@ class MainActivity : AppCompatActivity() {
             quiz.checkAnswer("false")
             // go to next question
             questionReader.text = quiz.loadNextQuestion()
+            // is it the end?
             ifEnd()
         }
     }
 
-    @SuppressLint("SetTextI18n")
-    fun ifEnd() {
+    private fun ifEnd() {
         if(questionReader.text == "End of Quiz"){
             falseButton.visibility = View.GONE
             trueButton.visibility = View.GONE
-            scoreReader.visibility = View.VISIBLE
+            questionReader.visibility = View.GONE
 
-            scoreReader.text = "Score: ${quiz.score}"
+            val score = "${resources.getString(R.string.score)} ${quiz.score}"
+            scoreReader.text = score
         }
     }
 
     private fun loadQuestions() {
         // get JSON questions from "raw" folder
-        val inputStream = resources.openRawResource(R.raw.quesitons)
+        var inputStream = resources.openRawResource(R.raw.quesitons)
+        if(resources.getString(R.string.score) == "Puntos") {
+            inputStream = resources.openRawResource(R.raw.preguntas)
+        }
         val jsonString = inputStream.bufferedReader().use {
             it.readText()
         }

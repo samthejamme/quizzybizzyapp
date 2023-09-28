@@ -1,0 +1,62 @@
+[
+  {
+    "question": "¿Es Comic Sans más mejor que Comic Serif?",
+    "choices": [
+      "true",
+      "false",
+      "both",
+      "neither"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Son snickerdoodles más mejores que sugar cookies?",
+    "choices": [
+      "true",
+      "false",
+      "both",
+      "neither"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Era Georgia un parto de el Primero Congreso Continental?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "¿Implementaron el plan de New Jersey para su gobierno?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿John Jay escritó Los Pápeles Federalistos?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Es \"el derecho de humano a guardar silencio\" un parto del Bill of Rights?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Revocó los Stamp Acts?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  }
+]
