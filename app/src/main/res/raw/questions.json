@@ -82,5 +82,93 @@
       "false"
     ],
     "answer" : "false"
+  },
+  {
+    "question" : "Bronze can't rust.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Bananas are technically a berry.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Pumpkin are often harvested too early.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "In 2008, did it snow in Los Angeles?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Can penguins projective vomit?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Was antarctica named that because of the lack of bears?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Do turtles hibernate?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Can a human digest wood",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Koalas just starve to death after their teeth wear down.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Pandas have a carnivore's digestive system, but still eat exclusively plants.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Giant pandas were named first, and the red panda copied it.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
   }
 ]

@@ -1,0 +1,150 @@
+[
+  {
+    "question": "¿Es Comic Sans más mejor que Comic Serif?",
+    "choices": [
+      "true",
+      "false",
+      "both",
+      "neither"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Son snickerdoodles más mejores que sugar cookies?",
+    "choices": [
+      "true",
+      "false",
+      "both",
+      "neither"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Era Georgia un parto de el Primero Congreso Continental?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "false"
+  },
+  {
+    "question": "¿Implementaron el plan de New Jersey para su gobierno?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿John Jay escritó Los Pápeles Federalistos?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Es \"el derecho de humano a guardar silencio\" un parto del Bill of Rights?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question": "¿Revocó los Stamp Acts?",
+    "choices": [
+      "true",
+      "false"
+    ],
+    "answer": "true"
+  },
+  {
+    "question" : "Bronce no puede oxidarse.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Los plátanos son técnicamente una baya.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Calabazas son cosechó demasiado temprano.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "En 2008, nevó en Los Ángeles?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Pingüinos pueden vómito de proyectil?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "¿Se llamaba así la Antártida debido a la falta de osos?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Hibernan tortugas?",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  },
+  {
+    "question" : "Húmanos pueden digerir madera",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Los koalas mueren de hambre después de que sus dientes se desgastan.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Los pandas tienen el sistema digestivo de un carnívoro, pero aún comen exclusivamente plantas.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "true"
+  },
+  {
+    "question" : "Los pandas gigantes fueron nombrados primero, y el panda rojo quedó en segundo lugar.",
+    "choices" : [
+      "true",
+      "false"
+    ],
+    "answer" : "false"
+  }
+]

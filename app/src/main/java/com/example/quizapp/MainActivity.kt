@@ -9,6 +9,7 @@ import android.widget.Button
 import android.widget.TextView
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
+import java.util.Locale
 
 class MainActivity : AppCompatActivity() {
     companion object {
@@ -64,10 +65,7 @@ class MainActivity : AppCompatActivity() {
 
     private fun loadQuestions() {
         // get JSON questions from "raw" folder
-        var inputStream = resources.openRawResource(R.raw.quesitons)
-//        if(resources.getString(R.string.score) == "Puntos") {
-//            inputStream = resources.openRawResource(R.raw.preguntas)
-//        }
+        val inputStream = resources.openRawResource(R.raw.questions)
         val jsonString = inputStream.bufferedReader().use {
             it.readText()
         }
